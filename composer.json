@@ -1,0 +1,19 @@
+{
+    "name": "tyhpdef/nyholm-psr7-server",
+    "description": "Tyhp type definitions for nyholm/psr7-server 1.1.0.",
+    "type": "metapackage",
+    "license": "Apache-2.0",
+    "version": "1.1.0",
+    "keywords": [
+        "dev",
+        "static analysis"
+    ],
+    "require": {
+        "tyhpdef/nyholm-psr7-server-impl": "~1.1.0.0"
+    },
+    "extra": {
+        "tyhp": {
+            "impl": "tyhpdef/nyholm-psr7-server-impl"
+        }
+    }
+}
